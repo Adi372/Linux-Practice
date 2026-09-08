@@ -1,3 +1,24 @@
+# Student Project Manager
+
+# Create a Bash program:
+# ./project-manager.sh
+
+# Menu:
+# ===== PROJECT MANAGER =====
+# 1. Create project
+# 2. List projects
+# 3. Delete project
+# 4. Backup project
+# 5. Exit
+
+# A project should automatically receive:
+# project-name/
+# ├── src/
+# ├── tests/
+# ├── docs/
+# └── README.md
+
+
 input=0
 until [ "$input" -eq 5 ]; do
     echo "===== PROJECT MANAGER ====="
