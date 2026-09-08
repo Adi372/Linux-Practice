@@ -1,4 +1,22 @@
-#!/bin/bash
+# Linux Permission Lab
+
+# This one isn't really an application. It's a deliberate breaking-and-fixing lab.
+
+
+# Experiment with:
+# chmod 000
+# chmod 400
+# chmod 600
+# chmod 644
+# chmod 700
+# chmod 755
+# chmod 770
+# chmod 775
+
+# For every permission, answer:
+# Who can read it?
+# Who can modify it?
+# Who can execute it?
 
 mkdir -p permission-lab/private
 
