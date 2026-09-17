@@ -6,5 +6,5 @@ then
     exit 1
 fi
 
-echo "Matching installed packages: "
-dpkg -l | awk '$2 ~ /git/ {print $2}'
+echo "Matching installed packages:"
+dpkg -l | awk -v keyword="$PACKAGE" '$2 ~ keyword {print $2}'
