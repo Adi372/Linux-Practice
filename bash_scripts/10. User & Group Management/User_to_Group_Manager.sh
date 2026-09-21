@@ -28,13 +28,11 @@ case "$choice" in
 
     3)
         read -p "Enter username: " username
-
         groups "$username"
         ;;
 
     4)
         read -p "Enter group: " group
-
         getent group "$group"
         ;;
 
