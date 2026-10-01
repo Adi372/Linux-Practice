@@ -1,7 +1,7 @@
 directory=$1
 
 if [ -z "$directory" ]; then
-    echo "Usage: ./size-analyzer.sh DIRECTORY"
+    echo "Usage: ./Directory_Size_Analyzer.sh DIRECTORY"
     exit 1
 fi
 

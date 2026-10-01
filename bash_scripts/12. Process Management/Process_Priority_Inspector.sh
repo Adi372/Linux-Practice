@@ -1,7 +1,7 @@
 pid=$1
 
 if [ -z "$pid" ]; then
-    echo "Usage: ./priority-check.sh PID"
+    echo "Usage: ./Process_Priority_Inspector.sh PID"
     exit 1
 fi
 
